@@ -4,20 +4,21 @@
  * and open the template in the editor.
  */
 package calendario_2018;
-
+import java.util.Scanner;
 /**
  *
  * @author dam1a07
  */
 public class Calendario_2018 {
-
+    static Scanner teclado = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Menu();
         // TODO code application logic here
         System.out.println("Calendario 2018");
-        
+        System.out.println("Que mes quieres ver?");
         
         Dias();
         
@@ -34,7 +35,6 @@ public class Calendario_2018 {
        int Mayo = 31;
        int Junoi = 30;
        int Julio = 31;
-       int Agosto = 31;
        int Septiembre = 30;
        int Octubre = 31;
        int Noviembre = 30;
